@@ -1,20 +1,16 @@
 ## Resultados Obtenidos
-![Resultado 10000](Imagenes/sz1.png)
+
+
+![Resultado 1   10000](Imagenes/sz1.png)
 ![Resultado 50000](Imagenes/sz2.png)
 ![Resultado 100000](Imagenes/sz3.png)
 
 
-## Folder Structure
+## Tabla 1: Arreglo completamente desordenado
+![Tabla 1   desordenado](Imagenes/Tabla1.png)
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tabla 2: Arreglo completamente desordenado
+![Tabla 2   casiOrdenado](Imagenes/Tabla2.png)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
