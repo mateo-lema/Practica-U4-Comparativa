@@ -1,6 +1,8 @@
-## Getting Started
+## Resultados Obtenidos
+![Resultado 10000](Imagenes/sz1.png)
+![Resultado 50000](Imagenes/sz2.png)
+![Resultado 100000](Imagenes/sz3.png)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
 
