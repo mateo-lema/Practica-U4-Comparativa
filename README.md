@@ -31,7 +31,8 @@ QuickSort suele ser mejor cuando los datos están muy desordenados porque no tie
 ![quick  cambioQuickSort](Imagenes/QuickSort.png)
 
 ![Error   Cambio](Imagenes/quickSortCambio.png)
-El que se ve arriba pasa porque quicksort anterior siempre usa el último dato como pivote. Cuando el arreglo ya estaba casi ordenado, y se usaba ese pivote podia ocurrir que el final sea mayor a todos los numeros. Entonces dejaba casi todos los elementos en un solo lado. Por eso el método se repetía muchas veces y podía fallar. Pero si usamos el pivote con el valor del medio el arreglo se separa de mejor forma.Asi podemos  reducir las llamadas recursivas.
+
+El error que se ve arriba pasa porque quicksort anterior siempre usa el último dato como pivote. Cuando el arreglo ya estaba casi ordenado, y se usaba ese pivote podia ocurrir que el final sea mayor a todos los numeros. Entonces dejaba casi todos los elementos en un solo lado. Por eso el método se repetía muchas veces y podía fallar. Pero si usamos el pivote con el valor del medio el arreglo se separa de mejor forma.Asi podemos  reducir las llamadas recursivas.
 
 
 ## Conclusiones
