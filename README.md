@@ -28,4 +28,20 @@ Inserción es mejor cuando el arreglo esta casi ordenado porque ahora que ya est
 QuickSort suele ser mejor cuando los datos están muy desordenados porque no tiene que comparar elemento con elemento como es en inserción que se compara por cada uno de los elementos. QuickSort divide el arreglo en partes más pequeñas y  utiliza un pivote. Luego ordena cada parte por eso es que es más eficiente cuando los datos están desordenados. 
 
 ## obervación
+![quick  cambioQuickSort](Imagenes/QuickSort.png)
+
 ![Error   Cambio](Imagenes/quickSortCambio.png)
+El que se ve arriba pasa porque quicksort anterior siempre usa el último dato como pivote. Cuando el arreglo ya estaba casi ordenado, y se usaba ese pivote podia ocurrir que el final sea mayor a todos los numeros. Entonces dejaba casi todos los elementos en un solo lado. Por eso el método se repetía muchas veces y podía fallar. Pero si usamos el pivote con el valor del medio el arreglo se separa de mejor forma.Asi podemos  reducir las llamadas recursivas.
+
+
+## Conclusiones
+
+### Conclusión 1
+ Cuando estaba completamente desordenado,  el algoritmo quicksort es mucho más rápido que Inserción. La diferencia en el tiempo entre los dos se observó cuando se usó un tamaño de 50.000 y de 100.000. Con estos tamaños e tiempo de inserción aumento mucho más comparado con el de quicksort
+ 
+### Conclusión 2
+Cuando el arreglo estaba casi ordenado y se agregó una persona más el algoritmo de inserción fue más rápido en todos los casos. Entonces la inserción es mejor cuando solo vamos a agregar datos.
+
+### Conclusión 3
+
+En general el tamaño de la entrada afecta mucho el tiempo necesario para ordenar cuando usamos el algoritmo de inserción. Con quicksort el tiempo no aumenta de manera tan drástica como aumenta con insercion.
